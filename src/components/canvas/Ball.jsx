@@ -8,7 +8,6 @@ import {
   useTexture,
 } from "@react-three/drei"
 import CanvasLoader from "../Loader"
-import { MeshStandardMaterial } from "three"
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl])
@@ -28,8 +27,8 @@ const Ball = (props) => {
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}
           scale={1}
-          flatShading
           map={decal}
+          flatShading
         />
       </mesh>
     </Float>
