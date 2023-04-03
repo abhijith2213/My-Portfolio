@@ -14,7 +14,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -23,6 +22,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  nextjs,
+  bootstrap,
 } from "../assets"
 
 export const navLinks = [
@@ -46,7 +47,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -54,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI Designing",
     icon: creator,
   },
 ]
@@ -89,6 +90,10 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Bootstrap CSS",
+    icon: bootstrap,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -96,10 +101,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -109,8 +114,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Nextjs",
+    icon: nextjs,
   },
 ]
 
