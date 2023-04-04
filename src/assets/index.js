@@ -22,14 +22,13 @@ import nextjs from "./tech/nextjs.png"
 import typescript from "./tech/typescript.png"
 import threejs from "./tech/threejs.svg"
 
-import meta from "./company/meta.png"
-import shopify from "./company/shopify.png"
-import starbucks from "./company/starbucks.png"
-import tesla from "./company/tesla.png"
+import pap from "./company/pAp.png"
+import DLogo from "./company/DLogo.png"
+import avalon from "./company/avalon.png"
 
-import carrent from "./carrent.png"
-import jobit from "./jobit.png"
-import tripguide from "./tripguide.png"
+import events from "./events.jpg"
+import talentf from "./talentf.png"
+import ecommerce from "./ecommerce.png"
 
 export {
   logo,
@@ -53,12 +52,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  pap,
+  DLogo,
+  avalon,
+  events,
+  talentf,
+  ecommerce,
   bootstrap,
 }

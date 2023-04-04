@@ -14,13 +14,12 @@ import {
   mongodb,
   git,
   figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  DLogo,
+  avalon,
+  pap,
+  events,
+  talentf,
+  ecommerce,
   threejs,
   nextjs,
   bootstrap,
@@ -38,6 +37,10 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "linkedIn",
+    title: "LinkedIn",
   },
 ]
 
@@ -101,10 +104,6 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "git",
     icon: git,
@@ -121,55 +120,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Digital-Marketing Intern",
+    company_name: "WHOLE ONE TECH ENTERPRISEINDIA LLP",
+    icon: DLogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2021 - Sep 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned the basics of digital Marketing and tools.",
+      "Get part in some projects to assist the lead as a web designer and social-media marketing.",
+      "Gained th knowledge about how the digital marketing works and its importance in current era.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Developer Intern",
+    company_name: "Pack-a-Peer pvt Ltd",
+    icon: pap,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2022 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Learned about latest web development technologies in MERN domain by doing several projects.",
+      "Developed Two web applications using React.js and other related technologies.",
+      "All the projects are under proper guidence of industrial experts for maintaining current standards.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "MERN Developer",
+    company_name: "AvalonTribe Infotech",
+    icon: avalon,
+    iconBg: "#383E56",
+    date: "March 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing responsive design and ensuring cross-browser compatibility with real-time data handling.",
     ],
   },
 ]
@@ -177,15 +161,14 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Currently all testimonials are random contents. You can share your thoughts with me.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    testimonial: "Allusers shown here is displayed using random api datas.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -193,7 +176,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "I Like to optimize your website , and build good attractive websites for your business!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -203,30 +186,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Events App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is an web based application which users can see events in different places and register for that events. This project is still not completed and under work. I plan to add more features.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "next js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "SASS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: events,
+    source_code_link: "https://github.com/abhijith2213/Event-App",
   },
   {
-    name: "Job IT",
+    name: "Talentf",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for freelance job openings, and also share there thoughts like social-media. Also have realtime chatting and profile management. ",
     tags: [
       {
         name: "react",
@@ -237,33 +220,49 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind css",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "socket-io",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Node Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongo-db",
+        color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: talentf,
+    source_code_link: "https://github.com/abhijith2213/talentf",
+  },
+  {
+    name: "Ecommerce",
+    description:
+      "This is an furniture ecommerce application. Have implemented all ecorce features and payment gateway integrations.Admin side for product and offer managements",
+    tags: [
+      {
+        name: "Express Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongo db",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "HBS",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://github.com/abhijith2213/Muebles-Ecommerce",
   },
 ]
 
