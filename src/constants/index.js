@@ -19,11 +19,12 @@ import {
   pap,
   events,
   talentf,
+  summarizer,
   ecommerce,
   threejs,
   nextjs,
   bootstrap,
-} from "../assets"
+} from "../assets";
 
 export const navLinks = [
   {
@@ -42,7 +43,7 @@ export const navLinks = [
     id: "linkedIn",
     title: "LinkedIn",
   },
-]
+];
 
 const services = [
   {
@@ -61,7 +62,7 @@ const services = [
     title: "UI Designing",
     icon: creator,
   },
-]
+];
 
 const technologies = [
   {
@@ -116,7 +117,7 @@ const technologies = [
     name: "Nextjs",
     icon: nextjs,
   },
-]
+];
 
 const experiences = [
   {
@@ -156,7 +157,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility with real-time data handling.",
     ],
   },
-]
+];
 
 const testimonials = [
   {
@@ -182,9 +183,35 @@ const testimonials = [
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
-]
+];
 
 const projects = [
+  {
+    name: "AI Article Summarizer",
+    description:
+      "Article Summarizer Web App using OpenAI's GPT-4 API with Vite React App and Tailwind CSS The goal of this project is to build a web application that uses OpenAI's GPT-4 API to automatically summarize long articles into shorter, more manageable summaries. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rapid API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: summarizer,
+    source_code_link: "https://github.com/abhijith2213/AI--Article-Summarizer",
+    live: "https://main--opensummarizer.netlify.app/",
+  },
   {
     name: "Events App",
     description:
@@ -264,6 +291,6 @@ const projects = [
     image: ecommerce,
     source_code_link: "https://github.com/abhijith2213/Muebles-Ecommerce",
   },
-]
+];
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, testimonials, projects };
