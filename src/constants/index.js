@@ -19,6 +19,7 @@ import {
   pap,
   events,
   talentf,
+  whatsapp,
   summarizer,
   ecommerce,
   threejs,
@@ -189,7 +190,7 @@ const projects = [
   {
     name: "AI Article Summarizer",
     description:
-      "Article Summarizer Web App using OpenAI's GPT-4 API with Vite React App and Tailwind CSS The goal of this project is to build a web application that uses OpenAI's GPT-4 API to automatically summarize long articles into shorter, more manageable summaries. ",
+      "Web App using OpenAI's GPT-4 API with Vite ReactApp and Tailwind. The goal of this project is to build a web application that uses OpenAI's GPT-4 API to automatically summarize long articles into shorter. ",
     tags: [
       {
         name: "react",
@@ -232,6 +233,7 @@ const projects = [
     ],
     image: events,
     source_code_link: "https://github.com/abhijith2213/Event-App",
+    live: "",
   },
   {
     name: "Talentf",
@@ -265,6 +267,41 @@ const projects = [
     ],
     image: talentf,
     source_code_link: "https://github.com/abhijith2213/talentf",
+    live: "",
+  },
+  {
+    name: "WhatsApp-Clone",
+    description:
+      "This is a whatsapp clone website. There are realtime chating, and profile managements. Build for getting more knowledge about socket-io. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "socket-io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongo-db",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: whatsapp,
+    source_code_link: "https://github.com/abhijith2213/WhatsApp",
+    live: "",
   },
   {
     name: "Ecommerce",
@@ -290,6 +327,7 @@ const projects = [
     ],
     image: ecommerce,
     source_code_link: "https://github.com/abhijith2213/Muebles-Ecommerce",
+    live: "https://muebles.tk",
   },
 ];
 

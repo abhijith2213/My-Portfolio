@@ -31,6 +31,7 @@ import events from "./events.jpg";
 import talentf from "./talentf.png";
 import ecommerce from "./ecommerce.png";
 import summarizer from "./summarizer.png";
+import whatsapp from "./whatsapp.jpg";
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   summarizer,
   ecommerce,
   bootstrap,
+  whatsapp,
 };
